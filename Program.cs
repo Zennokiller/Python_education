@@ -5,7 +5,7 @@ Console.WriteLine("Исходный массив");
 int num_massiv_B = 0; //количество элементов в будующем массиве
 int j = 0;
 //string[] massiv_B = Array.Empty<string>();
-for (int i=0;i<massiv_A.Length;i++
+for (int i=0;i<massiv_A.Length;i++)
 {
     Console.WriteLine(massiv_A[i]+" ");
     if (massiv_A[i].Length<=3) num_massiv_B++; //считаем сколько в массиве нужных нам элементов
